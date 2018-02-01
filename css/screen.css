@@ -215,3 +215,8 @@ input[type="submit"] {
   width: 50%;
   float: right;
 }
+
+#phone-warning, #email-warning, #name-warning {
+  padding-left: 1.2em;
+  color: red;
+}
