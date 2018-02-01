@@ -31,6 +31,7 @@ $('#signup-form').on('submit',
     }
     if(name.length > 0){
       validName = true;
+      $('#name-warning').remove();
     }
     else{
       if(!$('#name-warning').length){
