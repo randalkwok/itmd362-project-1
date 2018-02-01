@@ -177,3 +177,7 @@ html {
   line-height: 1.2em;/* 24 / 20 = 1.2 */
   font-family: 'Vollkorn', Palatino, serif;
 }
+
+input, label {
+  display: block;
+}
