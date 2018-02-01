@@ -178,10 +178,19 @@ html {
   font-family: 'Vollkorn', Palatino, serif;
 }
 
+body{
+  padding-left: 0.6em;/* 12 / 20 = 0.6 */
+  padding-right: 0.6em;/* 12 / 20 = 0.6 */
+}
+
 h1 {
   font-size: 1.5em;/* 30 / 20 = 1.5 */
   line-height: 1.6em;/* 48 / 30 = 1.6 */
   text-align: center;
+}
+
+p {
+  margin-bottom: 1.2em;/* 24 / 20 = 1.2 */
 }
 
 input, label {
