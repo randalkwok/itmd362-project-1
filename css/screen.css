@@ -200,3 +200,8 @@ input
 {
   margin-bottom: 0.6em;/* 12 / 20 = 0.6 */
 }
+
+input[type="submit"] {
+  width: 50%;
+  float: right;
+}
