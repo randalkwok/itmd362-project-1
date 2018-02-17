@@ -9,16 +9,6 @@ $('#signup-form').on('submit',
     var validEmail = false;
     var validName = false;
     e.preventDefault();
-    if(re.test(phone))
-    {
-      validPhone = true;
-      $('#phone-warning').remove();
-    }
-    else{
-      if(!$('#phone-warning').length) {
-        $('#phone-input').append('<li id="phone-warning">Please enter a proper phone number</li>');
-      }
-    }
     if(re2.test(email))
     {
       validEmail = true;
@@ -38,9 +28,9 @@ $('#signup-form').on('submit',
         $('#name-input').append('<li id="name-warning">Please enter a name</li>');
       }
     }
-    if(validPhone && validEmail && validName){
+    if(validEmail && validName){
       $(this).remove();
-      $('body').append('<h1>Thank You For Signing Up</h1>');
+      $('section').append('<h1 id="thank-you">Thank You For Signing Up</h1>');
     }
   }
 );
