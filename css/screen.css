@@ -204,16 +204,14 @@ input {
   background: #DDD;
   box-sizing: border-box;
   width: 100%;
-}
-
-input
-{
   margin-bottom: 0.6em;/* 12 / 20 = 0.6 */
 }
 
 input[type="submit"] {
   width: 50%;
   float: right;
+  border-radius: 0.4em;
+  margin-top: 0.6em;
 }
 
 #phone-warning, #email-warning, #name-warning {
