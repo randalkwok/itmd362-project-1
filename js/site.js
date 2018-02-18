@@ -1,11 +1,8 @@
 $('#signup-form').on('submit',
   function(e) {
-    var phone = $('#phone').val();
-    var re = /\d{3}.*\d{3}.*\d{4}/;
     var email = $('#email').val();
     var re2 = /^[^\s@]+@[^\s@]+$/;
     var name = $('#name').val();
-    var validPhone = false;
     var validEmail = false;
     var validName = false;
     e.preventDefault();
