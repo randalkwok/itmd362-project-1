@@ -3,7 +3,7 @@ $('#signup-form').on('submit',
     var phone = $('#phone').val();
     var re = /\d{3}.*\d{3}.*\d{4}/;
     var email = $('#email').val();
-    var re2 = /.*@.*/;
+    var re2 = /^[^\s@]+@[^\s@]+$/;
     var name = $('#name').val();
     var validPhone = false;
     var validEmail = false;
